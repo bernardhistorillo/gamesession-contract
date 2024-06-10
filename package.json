@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "ethers": "^6.13.0",
+    "hardhat": "^2.22.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^5.0.2",
+    "@openzeppelin/hardhat-upgrades": "^3.1.1",
+    "dotenv": "^16.4.5",
+    "glob": "^10.4.1",
+    "inflight": "^1.0.6",
+    "rimraf": "^5.0.7"
+  },
+  "name": "bfparty-fall",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
