@@ -17,7 +17,6 @@ async function main() {
     const validators = [
         validator1.address,
         validator2.address,
-        // validator3.address,
     ];
     const GameSession = await ethers.getContractFactory("GameSession");
     const gameSession = await upgrades.deployProxy(GameSession, [deployer.address, validators, minimumBidAmount, maxPlayersPerSession], { initializer: 'initialize' });
@@ -82,7 +81,6 @@ async function main() {
         [ [
             signature1,
             signature2,
-            // signature3,
         ] ]);
 
     console.log("Claiming prize...");
